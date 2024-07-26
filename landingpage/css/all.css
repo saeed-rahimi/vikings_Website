@@ -3,6 +3,14 @@
 @import '_sectinViking.css';
 @import '_actor.css';
 @import '_footer.css';
+@import 'bootstrap.rtl.css';
+@import 'fontiran.css';
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/iransans/IRANSansWeb.woff') format('woff');
+}
+
+;
 *,
 *::after,
 *::before {
@@ -11,8 +19,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: IRANSans !important;
+}
+
 ul,
 li,
 ol {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
