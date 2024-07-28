@@ -1,94 +1,95 @@
-            .back-intro {
-                width: 100%;
-                height: 90vh;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-image: linear-gradient(to right, #11030380, #000000), url(../images/260449-19-e1621590899467.jpg);
-                padding: 100px;
-            }
-            
-            .inreo-window {
-                margin-right: 100px;
-                color: aliceblue;
-            }
-            
-            .intro-title-fa {
-                color: #404243;
-            }
-            
-            .intro-list-data li:hover {
-                color: #2D5395;
-                cursor: pointer;
-            }
-            
-            .intro-list-type li {
-                background-color: #24282A;
-                padding: 5px 10px;
-                border-radius: 5px;
-                -webkit-border-radius: 5px;
-                -moz-border-radius: 5px;
-                -ms-border-radius: 5px;
-                -o-border-radius: 5px;
-            }
-            
-            .intro-logo-cinema :first-child {
-                font-size: 20px;
-            }
-            
-            .intro-logo-cinema :last-child {
-                font-size: 11px;
-            }
-            
-            .intro-img img {
-                border-radius: 50%;
-                -webkit-border-radius: 50%;
-                -moz-border-radius: 50%;
-                -ms-border-radius: 50%;
-                -o-border-radius: 50%;
-                vertical-align: middle;
-            }
-            
-            .intro-item h6 {
-                color: #606162;
-            }
-            
-            .intro-line-height-middle {
-                line-height: 35px;
-            }
-            
-            .intro-score img {
-                width: 20px;
-                margin-right: 8px;
-            }
-            
-            .intro-hide-div {
-                top: -32px;
-                background-color: #24282A;
-                padding: 5px 10px;
-                border-radius: 10px 10px 0 0;
-                -webkit-border-radius: 10px 10px 0 0;
-                -moz-border-radius: 10px 10px 0 0;
-                -ms-border-radius: 10px 10px 0 0;
-                -o-border-radius: 10px 10px 0 0;
-                transition: all 1s ease;
-                -webkit-transition: all 1s ease;
-                -moz-transition: all 1s ease;
-                -ms-transition: all 1s ease;
-                -o-transition: all 1s ease;
-                width: 95%;
-                display: none;
-                transform: scaleY(-51px);
-                -webkit-transform: scaleY(-51px);
-                -moz-transform: scaleY(-51px);
-                -ms-transform: scaleY(-51px);
-                -o-transform: scaleY(-51px);
-            }
-            
-            .intro-list-ul {
-                cursor: pointer;
-            }
-            
-            .intro-list-ul:hover .intro-hide-div {
-                display: block;
-            }
+                            .back-intro {
+                                width: 100%;
+                                height: 90vh;
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-image: linear-gradient(to right, #11030380, #000000), url(../images/260449-19-e1621590899467.jpg);
+                                padding: 100px;
+                            }
+                            
+                            .inreo-window {
+                                margin-right: 100px;
+                                color: aliceblue;
+                            }
+                            
+                            .intro-title-fa {
+                                color: #404243;
+                            }
+                            
+                            .intro-list-data li:hover {
+                                color: #2D5395;
+                                cursor: pointer;
+                            }
+                            
+                            .intro-list-type li {
+                                background-color: #24282A;
+                                padding: 5px 10px;
+                                border-radius: 5px;
+                                -webkit-border-radius: 5px;
+                                -moz-border-radius: 5px;
+                                -ms-border-radius: 5px;
+                                -o-border-radius: 5px;
+                            }
+                            
+                            .intro-logo-cinema :first-child {
+                                font-size: 20px;
+                            }
+                            
+                            .intro-logo-cinema :last-child {
+                                font-size: 11px;
+                            }
+                            
+                            .intro-img img {
+                                border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                -ms-border-radius: 50%;
+                                -o-border-radius: 50%;
+                                vertical-align: middle;
+                            }
+                            
+                            .intro-item h6 {
+                                color: #606162;
+                            }
+                            
+                            .intro-line-height-middle {
+                                line-height: 35px;
+                            }
+                            
+                            .intro-score img {
+                                width: 20px;
+                                margin-right: 8px;
+                            }
+                            
+                            .intro-hide-div {
+                                top: -29px;
+                                background-color: #24282A;
+                                padding: 5px 10px;
+                                border-radius: 10px 10px 0 0;
+                                -webkit-border-radius: 10px 10px 0 0;
+                                -moz-border-radius: 10px 10px 0 0;
+                                -ms-border-radius: 10px 10px 0 0;
+                                -o-border-radius: 10px 10px 0 0;
+                                width: 45%;
+                                visibility: hidden;
+                                transition: all 0.4s ease;
+                                -webkit-transition: all 0.4s ease;
+                                -moz-transition: all 0.4s ease;
+                                -ms-transition: all 0.4s ease;
+                                -o-transition: all 0.4s ease;
+                            }
+                            
+                            .intro-list-ul {
+                                cursor: pointer;
+                            }
+                            
+                            .intro-list-ul:hover .intro-hide-div {
+                                visibility: visible;
+                                top: -32px;
+                                transform: translateY(-3px);
+                                -webkit-transform: translateY(-3px);
+                                -moz-transform: translateY(-3px);
+                                -ms-transform: translateY(-3px);
+                                -o-transform: translateY(-3px);
+                            }
