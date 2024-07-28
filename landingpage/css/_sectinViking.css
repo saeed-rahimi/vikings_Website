@@ -1,0 +1,41 @@
+.item a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+.viking {
+    padding: 10px;
+    background-color: gray;
+}
+
+.viking h3 {
+    color: white;
+}
+
+.viking .imges img {
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.viking .ffont img {
+    width: 20px;
+    height: 20px;
+}
+
+.viking .lviking {
+    border-right: 1px solid red;
+}
+
+.actor {
+    background-color: black;
+    padding: 10px;
+}
+
+.actor h3 {
+    color: white;
+    margin: 10px;
+}
