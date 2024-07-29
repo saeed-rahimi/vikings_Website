@@ -1,0 +1,34 @@
+@import "_header.css";
+@import "_introFilm.css";
+@import "_sectinViking.css";
+@import "_actor.css";
+@import "_footer.css";
+@import "bootstrap.rtl.css";
+@import "fontiran.css";
+@font-face {
+  font-family: IRANSans;
+  src: url("../fonts/iransans/IRANSansWeb.woff") format("woff");
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: IRANSans !important;
+  background-color: #1a1a1a;
+}
+
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
