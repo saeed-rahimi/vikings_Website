@@ -4,6 +4,7 @@
 }
 footer {
   color: aliceblue;
+  padding:20px;
 }
 .parent {
   display: flex;
