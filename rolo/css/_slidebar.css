@@ -37,15 +37,15 @@
 }
 
 .slide-bar-li:nth-child(even) {
-  background-color: blue;
   flex: 1;
   text-align: center;
+  color: rgb(226, 120, 32);
 }
 
 .slide-bar-li:nth-child(odd) {
-  background-color: rgb(121, 121, 184);
   flex: 1;
   text-align: center;
+  color: rgb(226, 120, 32);
 }
 
 .slide-bar-li:hover {
