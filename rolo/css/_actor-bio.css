@@ -1,0 +1,26 @@
+.back-actor {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to right, #2d2828ab, #2d2828ab),
+    url(../images/staden\ 1.avif);
+  padding: 100px;
+}
+
+.bio {
+  color: rgba(255, 255, 255, 0.727);
+}
+
+h1 {
+  color: rgb(236, 157, 37);
+}
+
+h4 {
+  color: rgba(236, 156, 37, 0.548);
+}
+
+strong {
+  color: rgba(236, 156, 37, 0.548);
+}
