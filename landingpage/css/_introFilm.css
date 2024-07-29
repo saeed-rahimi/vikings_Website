@@ -1,183 +1,184 @@
-                                                            .back-intro {
-                                                                width: 100%;
-                                                                height: 90vh;
-                                                                background-size: cover;
-                                                                background-repeat: no-repeat;
-                                                                background-position: center;
-                                                                background-image: linear-gradient(to right, #11030380, #000000), url(../images/260449-19-e1621590899467.jpg);
-                                                                padding: 100px;
-                                                            }
-                                                            
-                                                            .inreo-window {
-                                                                margin-right: 100px;
-                                                                color: aliceblue;
-                                                            }
-                                                            
-                                                            .intro-title-fa {
-                                                                color: #404243;
-                                                            }
-                                                            
-                                                            .intro-list-data li:hover {
-                                                                color: #2D5395;
-                                                                cursor: pointer;
-                                                            }
-                                                            
-                                                            .intro-list-type li {
-                                                                background-color: #24282A;
-                                                                padding: 5px 10px;
-                                                                border-radius: 5px;
-                                                                -webkit-border-radius: 5px;
-                                                                -moz-border-radius: 5px;
-                                                                -ms-border-radius: 5px;
-                                                                -o-border-radius: 5px;
-                                                            }
-                                                            
-                                                            .intro-logo-cinema :first-child {
-                                                                font-size: 20px;
-                                                            }
-                                                            
-                                                            .intro-logo-cinema :last-child {
-                                                                font-size: 11px;
-                                                            }
-                                                            
-                                                            .intro-img img {
-                                                                border-radius: 50%;
-                                                                -webkit-border-radius: 50%;
-                                                                -moz-border-radius: 50%;
-                                                                -ms-border-radius: 50%;
-                                                                -o-border-radius: 50%;
-                                                                vertical-align: middle;
-                                                            }
-                                                            
-                                                            .intro-item h6 {
-                                                                color: #606162;
-                                                            }
-                                                            
-                                                            .intro-line-height-middle {
-                                                                line-height: 35px;
-                                                            }
-                                                            
-                                                            .intro-score img {
-                                                                width: 20px;
-                                                                margin-right: 8px;
-                                                            }
-                                                            
-                                                            .intro-hide-div {
-                                                                top: -29px;
-                                                                background-color: #24282A;
-                                                                padding: 5px 10px;
-                                                                border-radius: 10px 10px 0 0;
-                                                                -webkit-border-radius: 10px 10px 0 0;
-                                                                -moz-border-radius: 10px 10px 0 0;
-                                                                -ms-border-radius: 10px 10px 0 0;
-                                                                -o-border-radius: 10px 10px 0 0;
-                                                                width: 45%;
-                                                                visibility: hidden;
-                                                                transition: all 0.4s ease;
-                                                                -webkit-transition: all 0.4s ease;
-                                                                -moz-transition: all 0.4s ease;
-                                                                -ms-transition: all 0.4s ease;
-                                                                -o-transition: all 0.4s ease;
-                                                            }
-                                                            
-                                                            .intro-list-ul {
-                                                                cursor: pointer;
-                                                            }
-                                                            
-                                                            .intro-list-ul:hover .intro-hide-div {
-                                                                visibility: visible;
-                                                                top: -32px;
-                                                                transform: translateY(-3px);
-                                                                -webkit-transform: translateY(-3px);
-                                                                -moz-transform: translateY(-3px);
-                                                                -ms-transform: translateY(-3px);
-                                                                -o-transform: translateY(-3px);
-                                                            }
-                                                            
-                                                            .intro-time-right ul li:first-child {
-                                                                font-size: 12px;
-                                                                background-color: #24282A;
-                                                                color: #767676;
-                                                                border-radius: 5px 5px 0 0;
-                                                                -webkit-border-radius: 5px 5px 0 0;
-                                                                -moz-border-radius: 5px 5px 0 0;
-                                                                -ms-border-radius: 5px 5px 0 0;
-                                                                -o-border-radius: 5px 5px 0 0;
-                                                                padding: 3px;
-                                                                z-index: 1;
-                                                                width: 130px;
-                                                                margin: auto;
-                                                            }
-                                                            
-                                                            .intro-time-right ul li:nth-child(2) {
-                                                                z-index: 5;
-                                                                font-size: 15px;
-                                                                background-color: #24282A;
-                                                                color: #fff;
-                                                                border-radius: 5px;
-                                                                -webkit-border-radius: 5px;
-                                                                -moz-border-radius: 5px;
-                                                                -ms-border-radius: 5px;
-                                                                -o-border-radius: 5px;
-                                                                padding: 5px 10px;
-                                                                width: 250px;
-                                                            }
-                                                            
-                                                            .intro-time-right ul li:last-child {
-                                                                z-index: 1;
-                                                                font-size: 15px;
-                                                                background-color: #EE4140;
-                                                                color: #fff;
-                                                                border-radius: 0 0 5px 5px;
-                                                                -webkit-border-radius: 0 0 5px 5px;
-                                                                -moz-border-radius: 0 0 5px 5px;
-                                                                -ms-border-radius: 0 0 5px 5px;
-                                                                -o-border-radius: 0 0 5px 5px;
-                                                                padding: 5px 10px;
-                                                                width: 200px;
-                                                                margin: auto;
-                                                            }
-                                                            
-                                                            #myTab li button {
-                                                                background-color: #000000;
-                                                                color: #fff;
-                                                                border: 0;
-                                                                font-size: 15px;
-                                                                margin: auto 15px;
-                                                                padding: 1px 8px;
-                                                            }
-                                                            
-                                                            #myTab li:hover {
-                                                                outline: 0;
-                                                                border-bottom: 3px solid red!important;
-                                                            }
-                                                            
-                                                            #myTabContent {
-                                                                font-size: 14px;
-                                                            }
-                                                            
-                                                            .intro-right-online-btn button {
-                                                                background-color: #234786 !important;
-                                                                color: #fff!important;
-                                                                outline: 0;
-                                                                border: 0;
-                                                                border-radius: 10px;
-                                                                padding: 8px 18px;
-                                                                -webkit-border-radius: 10px;
-                                                                -moz-border-radius: 10px;
-                                                                -ms-border-radius: 10px;
-                                                                -o-border-radius: 10px;
-                                                            }
-                                                            
-                                                            .intro-left-online-btn button {
-                                                                background-color: #000000 !important;
-                                                                color: #fff!important;
-                                                                outline: 0;
-                                                                border: 1px solid #234786;
-                                                                border-radius: 10px;
-                                                                padding: 8px 18px;
-                                                                -webkit-border-radius: 10px;
-                                                                -moz-border-radius: 10px;
-                                                                -ms-border-radius: 10px;
-                                                                -o-border-radius: 10px;
-                                                            }
+.back-intro {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to right, #11030380, #000000),
+    url(../images/260449-19-e1621590899467.jpg);
+  padding: 100px;
+}
+
+.inreo-window {
+  margin-right: 100px;
+  color: aliceblue;
+}
+
+.intro-title-fa {
+  color: #404243;
+}
+
+.intro-list-data li:hover {
+  color: rgb(226, 120, 32);
+  cursor: pointer;
+}
+
+.intro-list-type li {
+  background-color: #24282a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.intro-logo-cinema :first-child {
+  font-size: 20px;
+}
+
+.intro-logo-cinema :last-child {
+  font-size: 11px;
+}
+
+.intro-img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  vertical-align: middle;
+}
+
+.intro-item h6 {
+  color: #606162;
+}
+
+.intro-line-height-middle {
+  line-height: 35px;
+}
+
+.intro-score img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.intro-hide-div {
+  top: -29px;
+  background-color: #24282a;
+  padding: 5px 10px;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  width: 45%;
+  visibility: hidden;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.intro-list-ul {
+  cursor: pointer;
+}
+
+.intro-list-ul:hover .intro-hide-div {
+  visibility: visible;
+  top: -32px;
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+}
+
+.intro-time-right ul li:first-child {
+  font-size: 12px;
+  background-color: #24282a;
+  color: #767676;
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  padding: 3px;
+  z-index: 1;
+  width: 130px;
+  margin: auto;
+}
+
+.intro-time-right ul li:nth-child(2) {
+  z-index: 5;
+  font-size: 15px;
+  background-color: #24282a;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 5px 10px;
+  width: 250px;
+}
+
+.intro-time-right ul li:last-child {
+  z-index: 1;
+  font-size: 15px;
+  background-color: rgb(226, 120, 32);
+  color: #fff;
+  border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -ms-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  padding: 5px 10px;
+  width: 200px;
+  margin: auto;
+}
+
+#myTab li button {
+  background-color: #000000;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+  margin: auto 15px;
+  padding: 1px 8px;
+}
+
+#myTab li:hover {
+  outline: 0;
+  border-bottom: 3px solid rgb(226, 120, 32) !important;
+}
+
+#myTabContent {
+  font-size: 14px;
+}
+
+.intro-right-online-btn button {
+  background-color: rgb(226, 120, 32) !important;
+  color: #fff !important;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  padding: 8px 18px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.intro-left-online-btn button {
+  background-color: #000000 !important;
+  color: #fff !important;
+  outline: 0;
+  border: 1px solid rgb(226, 120, 32);
+  border-radius: 10px;
+  padding: 8px 18px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
