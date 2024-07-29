@@ -9,7 +9,7 @@
 
 .viking {
     padding: 10px;
-    background-color: gray;
+    color: azure;
 }
 
 .viking h3 {
@@ -24,7 +24,7 @@
 .viking .ffont i {
     width: 30px;
     height: 35px;
-    margin-right:-30px;
+    margin-right: -30px;
 }
 
 .viking .lviking {
@@ -40,6 +40,7 @@
     color: white;
     margin: 10px;
 }
+
 .owl-carousel .owl-item img {
     display: block;
     width: 100%;
