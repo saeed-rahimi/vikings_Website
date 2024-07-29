@@ -24,13 +24,14 @@
 }
 
 .intro-list-type li {
-  background-color: #24282a;
+  background-color: rgba(128, 128, 128, 0.182);
   padding: 5px 10px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  color: rgb(226, 120, 32);
 }
 
 .intro-logo-cinema :first-child {
@@ -65,7 +66,7 @@
 
 .intro-hide-div {
   top: -29px;
-  background-color: #24282a;
+  background-color: rgba(128, 128, 128, 0.182);
   padding: 5px 10px;
   border-radius: 10px 10px 0 0;
   -webkit-border-radius: 10px 10px 0 0;
@@ -97,7 +98,7 @@
 
 .intro-time-right ul li:first-child {
   font-size: 12px;
-  background-color: #24282a;
+  background-color: rgba(128, 128, 128, 0.182);
   color: #767676;
   border-radius: 5px 5px 0 0;
   -webkit-border-radius: 5px 5px 0 0;
@@ -113,7 +114,7 @@
 .intro-time-right ul li:nth-child(2) {
   z-index: 5;
   font-size: 15px;
-  background-color: #24282a;
+  background-color: rgba(128, 128, 128, 0.182);
   color: #fff;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -140,7 +141,7 @@
 }
 
 #myTab li button {
-  background-color: #000000;
+  background-color: rgba(128, 128, 128, 0.182);
   color: #fff;
   border: 0;
   font-size: 15px;
