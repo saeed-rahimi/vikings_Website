@@ -13,6 +13,9 @@ footer {
   gap: 32px;
 }
 
+.parent h{
+  color:orange;
+}
 .join-text {
   color: rgb(236, 157, 37);
 }
