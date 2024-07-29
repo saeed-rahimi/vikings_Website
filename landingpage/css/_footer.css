@@ -10,6 +10,9 @@ footer {
   display: flex;
   gap: 32px;
 }
+.parent ul li{
+line-height:20px;
+}
 .join-text {
   color: rgb(236, 157, 37);
 }
