@@ -22,8 +22,9 @@
 }
 
 .viking .ffont img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
 }
 
 .viking .lviking {
