@@ -1,61 +1,62 @@
 .intro-actor {
-    width: 100%;
-    height: 80vh;
-    background: linear-gradient(to left, #000000, #0000009c), url(../images/lagertha-vikings-tv-series.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 50px;
-    color: #fff;
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(to left, #000000, #0000009c),
+    url(../images/lagertha-vikings-tv-series.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 50px;
+  color: #fff;
 }
 
 .right-intro img {
-    width: 250px;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+  width: 250px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 
 .titile-lagerta {
-    color: #E27820;
+  color: #e27820;
 }
 
 .imges img {
-    width: 80%;
+  width: 80%;
 }
 
 .flim-div {
-    opacity: 0.2;
-    height: 1px;
-    width: 80%;
-    background-color: aqua;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+  opacity: 0.2;
+  height: 1px;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .div-titile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
 }
 
 .div-titile li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .span-orange {
-    color: #E27820;
+  color: #e27820;
 }
 
 .left-intro {
-    text-align: justify;
+  text-align: justify;
 }
