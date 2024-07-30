@@ -37,14 +37,17 @@ margin-bottom:30px;
 .p {
   color: rgb(226, 120, 32);
 }
-
+.actor hr{
+color:white;
+}
 .actor {
-  padding: 10px 200px;
+  padding: 10px 100px;
 }
 
 .actor h3 {
   color: white;
-  margin: 10px;
+  margin-top: -35px;
+    margin-bottom: 35px;
 }
 
 .owl-carousel .owl-item img {
