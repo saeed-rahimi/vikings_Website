@@ -4,7 +4,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(to right, #2d2828ab, #2d2828ab),
-    url(../images/staden\ 1.avif);
+  background-image: linear-gradient(to right, #2d2828ab, #2d2828ab);
   padding: 100px;
+}
+
+.img-ragnar-2 {
+  width: 250px;
+  height: 280px;
 }
