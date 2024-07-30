@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ورود</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: rgb(226, 120, 32);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    "
+  >
+    <form
+      action="#"
+      style="
+        background: rgba(0, 0, 0, 0.18);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+      "
+    >
+      <h1 style="text-align: center; color: white"><strong>ورود</strong></h1>
+      <p
+        style="
+          font-size: 1.2em;
+          margin-bottom: 10px;
+          text-align: center;
+          color: rgb(226, 120, 32);
+        "
+      >
+        اطلاعات خود را وارد کنید
+      </p>
+
+      <h3>
+        <label
+          style="display: block; margin-bottom: 5px; font-weight: bold"
+          for="username"
+        >
+          Username:
+        </label>
+        <input
+          style="
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          "
+          type="text"
+          name="username"
+          id="username"
+          placeholder="@negin"
+          maxlength="6"
+          required
+        />
+      </h3>
+
+      <h3>
+        <label
+          style="display: block; margin-bottom: 5px; font-weight: bold"
+          for="password"
+        >
+          Password:
+        </label>
+        <input
+          style="
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          "
+          type="password"
+          name="password"
+          id="password"
+          maxlength="8"
+          required
+        />
+      </h3>
+      <button
+        style="
+          width: 100%;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          background: rgb(226, 120, 32);
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+        "
+        type="submit"
+      >
+        ورود
+      </button>
+    </form>
+  </body>
+</html>
