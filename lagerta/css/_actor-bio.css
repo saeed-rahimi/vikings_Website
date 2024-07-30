@@ -1,10 +1,51 @@
-.back-actor {
-  width: 100%;
-  height: 90vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: linear-gradient(to right, #2d2828ab, #2d2828ab),
-    url(../images/staden\ 1.avif);
-  padding: 100px;
+.intro-actor {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to left, #000000, #0000009c), url(../images/lagertha-vikings-tv-series.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    color: #fff;
+}
+
+.right-intro img {
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.titile-lagerta {
+    color: #E27820;
+}
+
+.imges img {
+    width: 80%;
+}
+
+.flim-div {
+    height: 1px;
+    width: 80%;
+    background-color: aqua;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.div-titile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.div-titile li {
+    margin: 0 10px;
 }
