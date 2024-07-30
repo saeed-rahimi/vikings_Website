@@ -1,6 +1,38 @@
 .bio {
-    background: linear-gradient(to right, #00000069, #0000004f), url(../landingpage/images/floki-back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
+  background: linear-gradient(to right, #00000069, #0000004f),
+    url(../landingpage/images/floki-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+.flim-div {
+  opacity: 0.2;
+  height: 1px;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.div-titile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.div-titile li {
+  margin: 0 10px;
+}
+
+.span-orange {
+  color: #e27820;
+}
+
+.left-intro {
+  text-align: justify;
 }
