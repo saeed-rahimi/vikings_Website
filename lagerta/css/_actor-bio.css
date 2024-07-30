@@ -12,6 +12,7 @@
 }
 
 .right-intro img {
+    width: 250px;
     border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
@@ -28,6 +29,7 @@
 }
 
 .flim-div {
+    opacity: 0.2;
     height: 1px;
     width: 80%;
     background-color: aqua;
@@ -48,4 +50,8 @@
 
 .div-titile li {
     margin: 0 10px;
+}
+
+.span-orange {
+    color: #E27820;
 }
