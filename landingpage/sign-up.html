@@ -3,34 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration Form</title>
+    <title>ورود</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/2d2ceac84d.js" crossorigin="anonymous"></script>
   </head>
-  <body
-    style="
-      font-family: Arial, sans-serif;
-      background-color: #1a1a1a;
-      color: rgb(226, 120, 32);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    "
-  >
-    <form
-      action="#"
-      style="
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="auth-box">
+            <div class="auth-item">
+                <a href="./login.html" class="a-1">
+                    <span class="auth-icon"><i class="fas fa-user-plus"></i></span>
+                    ورود
+                </a>
+            </div>
+            <div class="auth-item">
+                <a href="./sign-up.html" class="a-2">
+                    <span class="auth-icon"><i class="fas fa-door-open"></i></span>
+                    ثبت‌نام
+                </a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="./images/CineVista_Logo_No_BG.png" alt="logo">
+        </div>
+    </div>
+
+    <div class="menu-bar">
+        <div class="menu-items">
+            <div class="menu-item">
+                <i class="fas fa-home"></i>
+                <a href="./index.html"><div class="item-text">
+                    <span class="item-name">خانه</span>
+                    <span class="item-name-latin">Home</span>
+                  </div></a>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-film"></i>
+                <a href="#download"><div class="item-text">
+                    <span class="item-name">دانلود فیلم</span>
+                    <span class="item-name-latin">Movies</span>
+                </div></a>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-tv"></i>
+               <a href=""><div class="item-text">
+                    <span class="item-name">دانلود سریال</span>
+                    <span class="item-name-latin">Series</span>
+                </div></a> 
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-masks-theater"></i>
+                <!-- آیکون نقاب -->
+               <a href="#actor"><div class="item-text">
+                    <span class="item-name">هنرمندان</span>
+                    <span class="item-name-latin">Artists</span>
+                </div></a> 
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-headset"></i>
+                <!-- آیکون هدست -->
+                <div class="item-text">
+                   <a href="#call"> <span class="item-name">تماس با ما</span>
+                    <span class="item-name-latin">Contact</span>
+                </div></a>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder=" جستجو کنید " />
+            <i class="fas fa-search search-icon"></i>
+            <!-- آیکون ذره‌بین -->
+        </div>
+    </div>
+    </header>
+    <div style="
+    background-color: #1a1a1a;
+    color: rgb(226, 120, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; ">
+     <form action=""
+       style="
         background: rgba(0, 0, 0, 0.18);
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: 100%;
         max-width: 500px;
-      "
-    >
-      <h1 style="text-align: center; color: white">
-        <strong>ثبت‌ نام</strong>
-      </h1>
+        margin-top: 100px;
+      ">
+      <h1 style="text-align: center; color: white"> فرم ثبت‌ نام</h1>
       <p
         style="
           font-size: 1.2em;
@@ -39,7 +104,7 @@
           color: rgb(226, 120, 32);
         "
       >
-        اطلاعات خود را وارد کنید
+      اطلاعات خود را وارد کنید
       </p>
       <h3>
         <label
@@ -184,15 +249,67 @@
           padding: 10px;
           border: none;
           border-radius: 5px;
-          background: rgb(226, 120, 32);
+          background: rgb(226, 120, 32);;
           color: white;
           font-size: 16px;
           cursor: pointer;
         "
         type="submit"
       >
-        Submit
+        ثبت‌ نام
       </button>
-    </form>
+
+     </form>
+
+    </div>
+    <footer id="call" style="margin-top: 100px;">
+
+      <ul class="foot-ul">
+          <li>
+
+              <ul>
+                  <li class="li-footer h">دانلود فیلم</li>
+                  <li class="li-footer">پخش آنلاین فیلم ها</li>
+                  <li class="li-footer">250فیلم برتر تایخ</li>
+                  <li class="li-footer">باکس آفیس</li>
+                  <li class="li-footer">قوانین و مقررات</li>
+              </ul>
+
+          </li>
+          <li>
+              <ul>
+                  <li class="li-footer h">دانلود سریال</li>
+                  <li class="li-footer">پخش آنلاین سریال ها</li>
+                  <li class="li-footer">250سریال برتر تاریخ</li>
+                  <li class="li-footer">سوالات متداول</li>
+                  <li class="li-footer">DMCA POLICY</li>
+              </ul>
+          </li>
+          <li>
+              <div class="telegram-instagram">
+                  <div class="telegram d-flex rounded">
+                      <div class="icon border-end border-warning mx-3 p-2">
+                          <img src="images/icons8-telegram-50.png" alt="">
+                      </div>
+                      <div class="link">
+                          <p>عضویت در کانال تلگرام</p>
+                          <p class="join-text">TELEGRAM CHANNEL</p>
+                      </div>
+                  </div>
+                  <div class="instagram d-flex rounded">
+                      <div class="icon ps-2 border-end border-warning mx-3 p-2">
+                          <img src="images/icons8-instagram-50.png" alt="">
+                      </div>
+                      <div class="link">
+                          <p>مشاهده در اینستاگرام</p>
+                          <p class="join-text"> INSTAGRAM PAGE</p>
+                      </div>
+                  </div>
+              </div>
+
+          </li>
+      </ul>
+  </footer>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>
