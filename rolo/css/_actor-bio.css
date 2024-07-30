@@ -12,6 +12,7 @@
 .bio {
   color: rgba(255, 255, 255, 0.727);
   padding: 0px 30px;
+  text-align: justify;
 }
 
 h1 {
