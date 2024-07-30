@@ -1,0 +1,6 @@
+.bio {
+    background: linear-gradient(to right, #00000069, #0000004f), url(../landingpage/images/floki-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}

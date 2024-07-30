@@ -6,9 +6,15 @@
 }
 
 footer {
+<<<<<<< HEAD
+    color: aliceblue;
+    padding: 20px;
+    background-color: #1A1A1A;
+=======
   color: aliceblue;
   padding: 20px;
   background-color: rgba(128, 128, 128, 0.182);
+>>>>>>> 8b1add54b5e15da4ffc5fc96984deb945c4c592a
 }
 
 .parent {
