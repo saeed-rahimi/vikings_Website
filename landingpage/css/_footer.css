@@ -1,53 +1,59 @@
 .li-footer {
-    color: aliceblue;
-    list-style-type: none;
-    line-height: 40px;
-    font-size: 15px;
+  color: aliceblue;
+  list-style-type: none;
+  line-height: 40px;
+  font-size: 15px;
 }
 
 footer {
+<<<<<<< HEAD
     color: aliceblue;
     padding: 20px;
     background-color: #1A1A1A;
+=======
+  color: aliceblue;
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.182);
+>>>>>>> 8b1add54b5e15da4ffc5fc96984deb945c4c592a
 }
 
 .parent {
-    display: flex;
-    gap: 32px;
+  display: flex;
+  gap: 32px;
 }
 
 .parent .h {
-    color: orange;
+  color: orange;
 }
 
 .join-text {
-    color: rgb(236, 157, 37);
+  color: rgb(236, 157, 37);
 }
 
 .text-join {
-    color: rgb(236, 157, 37);
+  color: rgb(236, 157, 37);
 }
 
 .telegram-instagram {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 20px;
 }
 
 .telegram,
 .instagram {
-    padding: 10px;
-    background-color: #000000;
+  padding: 10px;
+  background-color: #000000;
 }
 
 i {
-    padding: 1rem;
-    border-left: 1px solid #ffffff65;
+  padding: 1rem;
+  border-left: 1px solid #ffffff65;
 }
 
 .foot-ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
