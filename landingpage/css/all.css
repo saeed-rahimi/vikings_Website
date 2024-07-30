@@ -5,6 +5,7 @@
 @import "_footer.css";
 @import "bootstrap.rtl.css";
 @import "fontiran.css";
+@import "_slidebar.css";
 @font-face {
   font-family: IRANSans;
   src: url("../fonts/iransans/IRANSansWeb.woff") format("woff");
